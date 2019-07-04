@@ -1,0 +1,20 @@
+html,body,ul,ol,li,dl,dt,dd,p,h1,h2,h3,h4,h5,h6,form,input,img,fieldset,legend,figure,figcaption{
+    margin:0;padding:0;}
+body{font-size:16px;}
+h1,h2,h3,h4,h5,h6{font-size:16px;
+                font-weight:normal;}
+ol,ul,li{list-style:none;}
+b,strong{font-weight:normal;}
+i,em{font-style:none;}
+a{text-decoration:none;}
+input{outline:none;}
+img{display:block;}
+.clear_fix:after{
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden;
+    clear:both;
+    overflow:hidden;
+}
+.clear_fix{zoom:1;}
